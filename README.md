@@ -6,6 +6,8 @@ fetchArtistDetails(artistId) and
 displayArtistDetails()
  fetchArtistDetails(artistId) sends a request to the Spotify API to get information about a specific artist. It uses the provided artistId to construct the URL.
  displayArtistDetails() is the main function that iterates through the artistIds array and for each artist, it fetches their details and dynamically creates HTML elements to display the artist's name, image, genres, and Spotify profile link. These elements are then appended to the artist-details container in your HTML.
+
+ 
 Index.html:
 It provides the structure for your webpage.
 It contains a div element with the id artist-details. This is where the artist details will be displayed.
