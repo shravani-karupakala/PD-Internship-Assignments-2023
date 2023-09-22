@@ -1,0 +1,41 @@
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('../images/backgrounds/black-sky.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        font-family: Arial, sans-serif;
+    }
+    h2 {
+        background-color: #949697; 
+        padding: 5px; 
+        color: #1e2224; 
+    }
+        
+    .card {
+        background-image: url('../images/backgrounds/sky.jpg'); 
+
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .search input {
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    .search button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
